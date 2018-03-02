@@ -1,7 +1,7 @@
 // Code your solution here:
 function driversWithRevenueOver(array, revenue) {
   const filteredarray =
-  array.filter(function filterfunction(element) {
+  array.map(function filterfunction(element) {
     console.log(element.revenue)
     element.revenue >= revenue
   })
