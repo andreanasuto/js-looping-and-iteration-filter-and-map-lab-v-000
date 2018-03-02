@@ -4,14 +4,12 @@ function driversWithRevenueOver(array, revenue) {
   array.filter(function isBigEnough(element) {
   return element.revenue >= revenue
   })
-  console.log(filteredarray);
   return filteredarray
 }
 
 function driverNamesWithRevenueOver(array,revenue) {
   const newarray =
   driversWithRevenueOver(array, revenue).map(element => element.name)
-  console.log(driversWithRevenueOver(array, revenue));
   return newarray
 }
 
