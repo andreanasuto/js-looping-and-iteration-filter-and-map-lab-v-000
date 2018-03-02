@@ -22,3 +22,9 @@ function exactMatch(array, value) {
   console.log(match);
   return match
 }
+
+function exactMatchToList(array, object) {
+  const newarray =
+  exactMatchToList(array, object).map(element => element.name)
+  return newarray
+}
