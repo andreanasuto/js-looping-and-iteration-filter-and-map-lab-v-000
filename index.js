@@ -18,7 +18,7 @@ function exactMatch(array, value) {
       if (element.name == value.name) {
         return value
       }
-      console.log(value);
+      console.log(value.name);
   })
   return match
 }
