@@ -8,6 +8,10 @@ function driversWithRevenueOver(array, revenue) {
   return filteredarray
 }
 
-function driverNamesWithRevenueOver() {
+function driverNamesWithRevenueOver(array,revenue) {
+  return driversWithRevenueOver(array, revenue).filter(element => element.name)  
+  })
 
+  console.log(filteredarray);
+  return filteredarray
 }
