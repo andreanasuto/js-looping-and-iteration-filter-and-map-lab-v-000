@@ -19,7 +19,6 @@ function exactMatch(array, value) {
         return element
       }
   })
-  console.log(element);
   return match
 }
 
