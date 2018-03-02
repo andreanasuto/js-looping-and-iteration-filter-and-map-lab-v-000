@@ -14,3 +14,7 @@ function driverNamesWithRevenueOver(array,revenue) {
   console.log(driversWithRevenueOver(array, revenue));
   return newarray
 }
+
+function exactMatch(array, value) {
+  
+}
