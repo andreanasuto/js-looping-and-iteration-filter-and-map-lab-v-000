@@ -17,7 +17,6 @@ function exactMatch(array, value) {
   const match = array.map(function (searchMatch) {
       return element == value
   })
-  console.log(element);
   return match
 }
 
