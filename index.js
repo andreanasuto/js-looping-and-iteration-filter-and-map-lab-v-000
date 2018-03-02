@@ -10,7 +10,7 @@ function driversWithRevenueOver(array, revenue) {
 
 function driverNamesWithRevenueOver(array,revenue) {
   const newarray =
-  driversWithRevenueOver(array, revenue).filter(element => element.name)
+  driversWithRevenueOver(array, revenue).map(element => element.name)
   console.log(driversWithRevenueOver(array, revenue));
   return newarray
 }
