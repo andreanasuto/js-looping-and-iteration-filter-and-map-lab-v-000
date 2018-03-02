@@ -18,7 +18,7 @@ function exactMatch(array, value) {
     console.log(value);
       if (element.name == value.name) {
         return Object.assign({}, {name: element.name}, {revenue: element.revenue})
-      } else if (element.name == value.name) {
+      } else if (element.revenue == value.revenue) {
         return Object.assign({}, {name: element.name}, {revenue: element.revenue})
       }
   })
