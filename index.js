@@ -21,5 +21,5 @@ function exactMatch(array, value) {
 }
 
 function exactMatchToList() {
-  
+
 }
