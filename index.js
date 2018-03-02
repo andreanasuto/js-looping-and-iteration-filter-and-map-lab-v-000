@@ -4,5 +4,6 @@ function driversWithRevenueOver(array, revenue) {
   array.filter(function isBigEnough(revenue) {
   return revenue >= revenue
   })
+  console.log(filteredarray);
   return filteredarray
 }
