@@ -19,10 +19,6 @@ function exactMatch(array, value) {
         return Object.assign({}, {name: value.name}, {revenue: value.revenue})
       }
   })
-  
+
   return match
-}
-
-function exactMatchToList() {
-
 }
