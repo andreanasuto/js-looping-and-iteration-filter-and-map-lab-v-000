@@ -25,6 +25,6 @@ function exactMatch(array, value) {
 
 function exactMatchToList(array, object) {
   const newarray =
-  exactMatchToList(array, object).map(element => element.name)
+  exactMatch(array, object).map(element => element.name)
   return newarray
 }
