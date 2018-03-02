@@ -19,4 +19,5 @@ function exactMatch(array, value) {
   const match = array.map(function (element) {
     element.name = value
   })
+  return match
 }
