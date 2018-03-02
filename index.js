@@ -15,7 +15,7 @@ function driverNamesWithRevenueOver(array,revenue) {
 
 function exactMatch(array, value) {
   const match = array.map(function searchMatch(element) {
-    console.log(element);
+    console.log(value);
       if (element == value) {
         return Object.assign({}, {name: element.name}, {revenue: element.revenue})
       }
